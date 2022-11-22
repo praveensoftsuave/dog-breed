@@ -1,0 +1,35 @@
+img{
+    border-radius: 8px;
+    width: 100px;
+    height:100px;
+    float: right;
+}
+.closebutton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-end;
+}
+.modalStyle1{
+    position: absolute;
+    
+    overflow:scroll;
+    width: 80%;
+    margin: auto;
+    height: 90%;
+    display: block;
+    scrollbar-width: thin;
+    background-color:#fff;
+}
+ .style{
+    top:20px;
+    box-shadow: 2;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(94px, 1fr));
+    gap: 5px;
+    width: 80%;
+    background-color:#fff;
+    border-radius:5px;
+    padding:10px 5px;
+    margin: auto;
+};
